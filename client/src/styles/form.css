@@ -1,0 +1,78 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+.form > header {
+    width:95%;
+    padding:2.5%;
+    text-align: center;
+}
+.form > header > h2 {
+    margin:2.5%;
+    font-size:calc(1.3rem + 1vw);
+    color: royalblue;
+}
+.form > section {
+    width:100%;
+    max-width:500px;
+    margin:0 auto;
+    text-align: center;
+    flex: 1;
+}
+.form > section > form {
+    width:90%;
+    margin:5%;
+}
+.form > section > form > input {
+    width:95%;
+    padding:3.5% 2.5%;
+    margin:2.5% 0;
+    border-radius:5px;
+    border:1px solid #eee;
+    display: block;
+}
+.form > section > form > button {
+    width:50%;
+    max-width:150px;
+    padding:3% 2.5%;
+    font-size:min(4vw , 1rem);
+    color: white;
+    background-color:royalblue;
+    border:transparent;
+    border-radius:5px;
+}
+
+.form > section > p > .link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.form > footer { 
+    width:95%;
+    padding:0 2.5%;
+    background-color:royalblue;
+    text-align: center;
+    color: white;
+    font-size:min(3vw , 1rem);
+}
+
+.form > footer > ul {
+    display: flex;
+    flex-wrap: wrap;
+    width:85%;
+    padding:0 7.5%;
+    margin-top:0;
+    justify-content:center;
+    white-space: nowrap;
+}
+.form > footer > ul > li{
+    width:fit-content;
+    margin:2.5%;
+}
+
+.error {
+    font-size:min(0.8rem ,4vw);
+    color:orangered
+}
